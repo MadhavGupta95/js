@@ -61,7 +61,7 @@
             newARR.push(item*100)
            })
            arr.forEach(callbackFunc)
-           */ 
+           
         const arr = [1,2,3,4,5,6]
         const reducefunc = function(previousvalue,newvalue){
             console.log(previousvalue,newvalue)
@@ -69,6 +69,25 @@
         }
         const res2 = arr.reduce(reducefunc,0)
         console.log(res2)
+        
+        const a = {
+            mame:'john',
+            age : 34,
+            isMarried : false,
+            greet : function(){
+                console.log("hello user!")
+            }
+        }
+        console.log(Object.keys(a))
+        console.log(Object.values(a))
+        */ 
+        const greet = function(){
+            console.log("hello user!")
+        }
+        const arrowGREET = () =>{
+            console.log("hello user!")
+        }
+        arrowGREET()
             
         </script>
         
