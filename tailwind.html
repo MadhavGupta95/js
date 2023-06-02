@@ -1,8 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>local host 5500</title>
+        <title>localhost:5500</title>
         <link rel="stylesheet" href="tailwind.css"> 
     </head>
-    <body></body>
+    <body>
+        <h1>HELLO WORLD</h1>
+        <script>
+           /* const obj = {
+                name: 'buga',
+                age:30,
+                isMarried: false,
+                greet: function(){
+                    console.log("hello sir thank you for using this service")
+                },
+                address:{
+                    city:'delhi',
+                    state:'delhi',
+                    pincode:'110033'
+                },
+                hobbies:['music','gaming']
+
+            }
+            console.log(obj)
+            */
+           /*function greet(name,age){
+            console.log('hello '+name+' your age is '+age)
+           }
+           greet('john')
+           
+          
+           class car{
+            age = 28
+            adult = true
+            constructor(name,brand,model){
+                this.brand = brand
+                this.model = model
+                this.name = name
+            }
+            greet(){
+                console.log('hello '+this.name+' thank you for buying the car ' +this.brand +this.model)
+            }
+        }
+        const car1 = new car('emdee','Mercedes','g63')
+        console.log(car1)
+        car1.greet()
+    
+            const arr = ['dave','jane','jack','jessie'];
+            const callbackFunc = function(item,potato){
+                console.log(item,potato)
+            }
+            arr.forEach(callbackFunc)
+            
+           const arr = [1,2,3,4,5,6]
+           const newARR = []
+           const callbackFunc = function(item){
+            console.log(newARR)
+           }
+           arr.forEach(function(item){
+            newARR.push(item*100)
+           })
+           arr.forEach(callbackFunc)
+           */ 
+        const arr = [1,2,3,4,5,6]
+        const reducefunc = function(previousvalue,newvalue){
+            console.log(previousvalue,newvalue)
+            return previousvalue+newvalue
+        }
+        const res2 = arr.reduce(reducefunc,0)
+        console.log(res2)
+            
+        </script>
+        
+    </body>
 </html>
